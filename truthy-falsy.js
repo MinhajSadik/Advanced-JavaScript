@@ -14,7 +14,7 @@
 //"false";
 
 
-const age = 0/3;
+const age = 3;
 
 if (age){
     console.log('condition is true');
