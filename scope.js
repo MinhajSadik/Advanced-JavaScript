@@ -12,7 +12,7 @@ let bonus = 20; // if any variable is out of function this variable is global
 function sum(first, second) {
     let result = first + second + bonus;
     console.log(result); // when variable inside function and also access to inside function
-    if(result > 9){
+    if(result > 9){ // if block and let const isn't find out of if block
         const mood = "happy";
         let moood = 'sad';
         var mod = 'sadnees';
