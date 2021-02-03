@@ -16,7 +16,9 @@ function square(element) {
 }
 
 const square = element => element * element; 
-const result = numbers.map(x => x * x);
+//arrow function
+const multiply = numbers.map(x => x * x);
+//arrow function
 const square1 = x => x * x;
 
 
@@ -29,7 +31,9 @@ const result = numbers.map(function(element){
 })
 console.log(result);
 
-const bigger = numbers.filter(x => x < 5); // filter also return an array
+const bigger = numbers.filter(x => x < 5); // filter also return an array 
+//and when didn't find any array result filter also return empty array
 console.log(bigger);
-const isThere = numbers.find(x => x > 5); // find also return an element 
+
+const isThere = numbers.find(x => x > 5); // find also return an upper one element 
 console.log(isThere);
