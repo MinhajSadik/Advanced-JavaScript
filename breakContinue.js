@@ -15,3 +15,15 @@ for (let i = 0; i < nums1.length; i++) {
     }
     console.log(nums1[i]);
 }
+
+if ('false'){
+
+    console.log("I am not false")
+
+}
+
+else{
+
+    console.log("I am false")
+
+}
