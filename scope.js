@@ -20,7 +20,7 @@ function sum(first, second) {
         console.log(mood);
     }
     console.log(mod);
-    console.log(mood);
+    console.log(mod);
     return result;
 }
 
